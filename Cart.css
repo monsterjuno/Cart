@@ -1,44 +1,9 @@
-.mediaViewInfo {
-	--web-view-name: Cart;
-	--web-view-id: Cart;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-enable-scale-up: true;
-	--web-scale-on-resize: true;
-	--web-enable-deep-linking: true;
-}
-:root {
-	--web-view-ids: Cart;
-}
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
-}
 #Cart {
 	position: absolute;
 	width: 1920px;
 	height: 1130px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
-	--web-view-name: Cart;
-	--web-view-id: Cart;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-enable-scale-up: true;
-	--web-scale-on-resize: true;
-	--web-enable-deep-linking: true;
-}
-@keyframes fadein {
-
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-
 }
 
 #Rectangle_1481 {
@@ -186,9 +151,6 @@
 	overflow: visible;
 	width: 71px;
 	white-space: nowrap;
-	--web-animation: fadein 0.3s ease-out;
-	--web-action-type: page;
-	--web-action-target: About_Us.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Zrnic;
@@ -236,18 +198,7 @@
 	top: 42px;
 	overflow: visible;
 }
-#Union_1 {
-	fill: rgba(251,230,225,1);
-}
-.Union_1 {
-	overflow: visible;
-	position: absolute;
-	width: 16px;
-	height: 16px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
+
 #Search {
 	position: absolute;
 	width: 16px;
@@ -267,7 +218,6 @@
 }
 #CART {
 	opacity: 0.98;
-	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	left: 337px;
 	top: 0px;
 	position: absolute;
@@ -286,17 +236,11 @@
 }
 #HOME__ACCOUNT_ {
 	opacity: 0.5;
-	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	left: 0px;
 	top: 0px;
 	position: absolute;
 	overflow: visible;
 	width: 293px;
-	white-space: nowrap;
-	--web-animation: fadein 0.3s ease-out;
-	--web-action-type: page;
-	--web-action-target: The_Roll.html;
-	cursor: pointer;
 	line-height: 80px;
 	margin-top: -22.5px;
 	text-align: center;
@@ -333,7 +277,6 @@
 	overflow: visible;
 	white-space: nowrap;
 	line-height: 15px;
-	font-family: Arial;
 	font-size: 10px;
 	color: rgba(251,230,225,1);
 }
@@ -613,7 +556,7 @@
 	font-size: 20px;
 	color: rgba(53,128,107,1);
 }
-#July_11_2020_-_345_PM {
+#Date {
 	left: 5px;
 	top: 53px;
 	position: absolute;
@@ -654,14 +597,6 @@
 	height: 313px;
 	left: 291px;
 	top: 423px;
-}
-#pin {
-	position: absolute;
-	width: 32px;
-	height: 32px;
-	left: 465px;
-	top: 52px;
-	overflow: visible;
 }
 #Rectangle_1404 {
 	fill: transparent;
@@ -872,10 +807,6 @@
 	overflow: visible;
 	width: 249px;
 	white-space: nowrap;
-	--web-animation: fadein 0.3s ease-out;
-	--web-action-type: page;
-	--web-action-target: Payment_.html;
-	cursor: pointer;
 	text-align: center;
 	font-family: Zrnic;
 	font-style: normal;
